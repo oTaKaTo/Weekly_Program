@@ -6,8 +6,9 @@ int main()
 {
     int n;
 
-    printf("Enter Size :");
+    printf("Enter Size : ");
     scanf("%d", &n);
+    printf("\n");
 
     for (int y = 1; y <= 2 * n - 1; y++)
     {
