@@ -1,7 +1,6 @@
 //even = 2n          }   n>=0
 //odd = 2n+1         }
 
-
 #include <stdio.h>
 
 int main()
