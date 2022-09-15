@@ -10,7 +10,6 @@ int main()
     printf("Enter number : ");
     scanf("%d",&num); 
     
-    
     if(num < 0)
     {
         newnum = -(num); 
