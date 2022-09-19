@@ -28,6 +28,5 @@ int main()
         p++;
         printf("%d\n",*p);
     }
-
     return 0;
 }

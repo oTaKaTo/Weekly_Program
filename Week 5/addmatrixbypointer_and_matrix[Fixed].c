@@ -7,7 +7,6 @@ int main()
     int a1[m][n],a2[m][n];
     int *p1,*p2;
     
-    
     for(p1 = &a1[0][0] ; p1 <= &a1[m-1][n-1] ; p1++)
     {
         scanf("%d",p1);
