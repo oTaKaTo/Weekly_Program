@@ -1,9 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
     int m,n;
     scanf("%d %d",&m,&n);
+    if(m < 1 || n < 3)
+    {
+        printf("Invalid number of rows or columns!  Enter again!\n");
+        system("pause");
+        main();
+    }
     int a1[m][n],a2[m][n];
     int *p1,*p2;
     
